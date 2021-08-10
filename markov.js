@@ -48,7 +48,7 @@ class MarkovMachine {
       key = MarkovMachine.choice(this.chains.get(key))
     }
 
-    return out.join();
+    return out.join(' ');
   }
 }
 
